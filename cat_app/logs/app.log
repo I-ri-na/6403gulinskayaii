@@ -1,0 +1,129 @@
+2025-12-06 16:17:22,686 - PID:5684 - DEBUG - proactor_events.py:631 - __init__ - Using proactor: IocpProactor
+2025-12-06 16:17:22,688 - PID:5684 - INFO - cat_image_processor.py:277 - run_async - === Starting cat image processing pipeline ===
+2025-12-06 16:17:22,689 - PID:5684 - INFO - cat_image_processor.py:106 - download_data - Starting image download (1)
+2025-12-06 16:17:22,690 - PID:5684 - DEBUG - cat_image_processor.py:113 - download_data - Requested 1 cats
+2025-12-06 16:17:23,957 - PID:5684 - DEBUG - cat_image_processor.py:117 - download_data - Received response with 1 cats
+2025-12-06 16:17:23,957 - PID:5684 - DEBUG - cat_image_processor.py:120 - download_data - Requesting cat images
+2025-12-06 16:17:23,958 - PID:5684 - DEBUG - cat_image_processor.py:80 - _download_image - Method _download_image called for image with index: 0
+2025-12-06 16:17:25,994 - PID:5684 - DEBUG - TiffImagePlugin.py:941 - load - tag: Copyright (33432) - type: string (2) Tag Location: 22 - Data Location: 26 - value: b'\xc2\xa9Pierre - stock.adobe.com\x00'
+2025-12-06 16:17:26,073 - PID:5684 - DEBUG - cat_image_processor.py:88 - _download_image - Method _download_image for image#0 executed in 2.11 seconds
+2025-12-06 16:17:26,075 - PID:5684 - DEBUG - cat_image_processor.py:74 - wrapper - Method download_data executed in 3.39 seconds
+2025-12-06 16:17:26,076 - PID:5684 - INFO - cat_image_processor.py:279 - run_async - Downloaded 1 images
+2025-12-06 16:17:26,076 - PID:5684 - DEBUG - cat_image_processor.py:173 - process_images - Called processing 1 images with cats
+2025-12-06 16:18:18,583 - PID:24676 - DEBUG - proactor_events.py:631 - __init__ - Using proactor: IocpProactor
+2025-12-06 16:18:18,588 - PID:24676 - INFO - cat_image_processor.py:277 - run_async - === Starting cat image processing pipeline ===
+2025-12-06 16:18:18,589 - PID:24676 - INFO - cat_image_processor.py:106 - download_data - Starting image download (1)
+2025-12-06 16:18:18,590 - PID:24676 - DEBUG - cat_image_processor.py:113 - download_data - Requested 1 cats
+2025-12-06 16:18:19,587 - PID:24676 - DEBUG - cat_image_processor.py:117 - download_data - Received response with 1 cats
+2025-12-06 16:18:19,588 - PID:24676 - DEBUG - cat_image_processor.py:120 - download_data - Requesting cat images
+2025-12-06 16:18:19,588 - PID:24676 - DEBUG - cat_image_processor.py:80 - _download_image - Method _download_image called for image with index: 0
+2025-12-06 16:18:21,549 - PID:24676 - DEBUG - TiffImagePlugin.py:941 - load - tag: ImageWidth (256) - type: short (3) - value: b'a\x06'
+2025-12-06 16:18:21,549 - PID:24676 - DEBUG - TiffImagePlugin.py:941 - load - tag: ImageLength (257) - type: short (3) - value: b'\xc9\x04'
+2025-12-06 16:18:21,550 - PID:24676 - DEBUG - TiffImagePlugin.py:941 - load - tag: BitsPerSample (258) - type: short (3) Tag Location: 46 - Data Location: 194 - value: b'\x08\x00\x08\x00\x08\x00'
+2025-12-06 16:18:21,550 - PID:24676 - DEBUG - TiffImagePlugin.py:941 - load - tag: PhotometricInterpretation (262) - type: short (3) - value: b'\x02\x00'
+2025-12-06 16:18:21,550 - PID:24676 - DEBUG - TiffImagePlugin.py:941 - load - tag: ImageDescription (270) - type: string (2) Tag Location: 70 - Data Location: 200 - value: <table: 59 bytes>
+2025-12-06 16:18:21,550 - PID:24676 - DEBUG - TiffImagePlugin.py:941 - load - tag: Make (271) - type: string (2) Tag Location: 82 - Data Location: 259 - value: b'Canon\x00'
+2025-12-06 16:18:21,550 - PID:24676 - DEBUG - TiffImagePlugin.py:941 - load - tag: Model (272) - type: string (2) Tag Location: 94 - Data Location: 265 - value: b'Canon EOS 5D Mark II\x00'
+2025-12-06 16:18:21,550 - PID:24676 - DEBUG - TiffImagePlugin.py:941 - load - tag: Orientation (274) - type: short (3) - value: b'\x01\x00'
+2025-12-06 16:18:21,551 - PID:24676 - DEBUG - TiffImagePlugin.py:941 - load - tag: SamplesPerPixel (277) - type: short (3) - value: b'\x03\x00'
+2025-12-06 16:18:21,551 - PID:24676 - DEBUG - TiffImagePlugin.py:941 - load - tag: XResolution (282) - type: rational (5) Tag Location: 130 - Data Location: 286 - value: b"\x90\xe4f\x01\x10'\x00\x00"
+2025-12-06 16:18:21,552 - PID:24676 - DEBUG - TiffImagePlugin.py:941 - load - tag: YResolution (283) - type: rational (5) Tag Location: 142 - Data Location: 294 - value: b"\x90\xe4f\x01\x10'\x00\x00"
+2025-12-06 16:18:21,552 - PID:24676 - DEBUG - TiffImagePlugin.py:941 - load - tag: ResolutionUnit (296) - type: short (3) - value: b'\x02\x00'
+2025-12-06 16:18:21,552 - PID:24676 - DEBUG - TiffImagePlugin.py:941 - load - tag: Software (305) - type: string (2) Tag Location: 166 - Data Location: 302 - value: <table: 36 bytes>
+2025-12-06 16:18:21,553 - PID:24676 - DEBUG - TiffImagePlugin.py:941 - load - tag: DateTime (306) - type: string (2) Tag Location: 178 - Data Location: 338 - value: b'2015:11:26 02:18:40\x00'
+2025-12-06 16:18:21,553 - PID:24676 - DEBUG - TiffImagePlugin.py:941 - load - tag: ExifIFD (34665) - type: long (4) - value: b'h\x01\x00\x00'
+2025-12-06 16:18:21,605 - PID:24676 - DEBUG - cat_image_processor.py:88 - _download_image - Method _download_image for image#0 executed in 2.02 seconds
+2025-12-06 16:18:21,609 - PID:24676 - DEBUG - cat_image_processor.py:74 - wrapper - Method download_data executed in 3.02 seconds
+2025-12-06 16:18:21,609 - PID:24676 - INFO - cat_image_processor.py:279 - run_async - Downloaded 1 images
+2025-12-06 16:18:21,610 - PID:24676 - DEBUG - cat_image_processor.py:173 - process_images - Called processing 1 images with cats
+2025-12-06 16:24:40,648 - PID:19268 - DEBUG - proactor_events.py:631 - __init__ - Using proactor: IocpProactor
+2025-12-06 16:24:40,651 - PID:19268 - INFO - cat_image_processor.py:277 - run_async - === Starting cat image processing pipeline ===
+2025-12-06 16:24:40,652 - PID:19268 - INFO - cat_image_processor.py:106 - download_data - Starting image download (1)
+2025-12-06 16:24:40,653 - PID:19268 - DEBUG - cat_image_processor.py:113 - download_data - Requested 1 cats
+2025-12-06 16:24:41,430 - PID:19268 - ERROR - cat_image_processor.py:289 - run_async - Error in run_async: Cannot serialize non-str key None
+2025-12-06 16:26:35,242 - PID:10584 - DEBUG - proactor_events.py:631 - __init__ - Using proactor: IocpProactor
+2025-12-06 16:26:35,245 - PID:10584 - INFO - cat_image_processor.py:277 - run_async - === Starting cat image processing pipeline ===
+2025-12-06 16:26:35,245 - PID:10584 - INFO - cat_image_processor.py:106 - download_data - Starting image download (1)
+2025-12-06 16:26:35,246 - PID:10584 - DEBUG - cat_image_processor.py:113 - download_data - Requested 1 cats
+2025-12-06 16:26:36,328 - PID:10584 - DEBUG - cat_image_processor.py:117 - download_data - Received response with 1 cats
+2025-12-06 16:26:36,328 - PID:10584 - DEBUG - cat_image_processor.py:120 - download_data - Requesting cat images
+2025-12-06 16:26:36,329 - PID:10584 - DEBUG - cat_image_processor.py:80 - _download_image - Method _download_image called for image with index: 0
+2025-12-06 16:26:38,590 - PID:10584 - DEBUG - cat_image_processor.py:88 - _download_image - Method _download_image for image#0 executed in 2.26 seconds
+2025-12-06 16:26:38,592 - PID:10584 - DEBUG - cat_image_processor.py:74 - wrapper - Method download_data executed in 3.35 seconds
+2025-12-06 16:26:38,593 - PID:10584 - INFO - cat_image_processor.py:279 - run_async - Downloaded 1 images
+2025-12-06 16:26:38,593 - PID:10584 - DEBUG - cat_image_processor.py:173 - process_images - Called processing 1 images with cats
+2025-12-06 16:27:33,455 - PID:10584 - DEBUG - cat_image_processor.py:74 - wrapper - Method process_images executed in 54.86 seconds
+2025-12-06 16:27:33,455 - PID:10584 - INFO - cat_image_processor.py:282 - run_async - Processed 1 images
+2025-12-06 16:27:33,455 - PID:10584 - DEBUG - cat_image_processor.py:254 - save_images_async - Called saving 1 processed images with cats
+2025-12-06 16:27:33,479 - PID:10584 - DEBUG - cat_image_processor.py:208 - save_one_dir_async - Called saving dir for Exotic Shorthair cat with id = 0
+2025-12-06 16:27:33,481 - PID:10584 - DEBUG - cat_image_processor.py:230 - save_image - Called saving Exotic Shorthair processed image - saved_images\2025-12-06_16-27-33\0_Exotic Shorthair\0_Exotic Shorthair_original.jpg
+2025-12-06 16:27:33,500 - PID:10584 - DEBUG - cat_image_processor.py:230 - save_image - Called saving Exotic Shorthair processed image - saved_images\2025-12-06_16-27-33\0_Exotic Shorthair\0_Exotic Shorthair_custom.jpg
+2025-12-06 16:27:33,510 - PID:10584 - DEBUG - cat_image_processor.py:230 - save_image - Called saving Exotic Shorthair processed image - saved_images\2025-12-06_16-27-33\0_Exotic Shorthair\0_Exotic Shorthair_cv2.jpg
+2025-12-06 16:27:33,524 - PID:10584 - DEBUG - cat_image_processor.py:74 - wrapper - Method save_image executed in 0.04 seconds
+2025-12-06 16:27:33,525 - PID:10584 - DEBUG - cat_image_processor.py:74 - wrapper - Method save_image executed in 0.03 seconds
+2025-12-06 16:27:33,527 - PID:10584 - DEBUG - cat_image_processor.py:74 - wrapper - Method save_image executed in 0.02 seconds
+2025-12-06 16:27:33,527 - PID:10584 - DEBUG - cat_image_processor.py:74 - wrapper - Method save_one_dir_async executed in 0.05 seconds
+2025-12-06 16:27:33,527 - PID:10584 - DEBUG - cat_image_processor.py:74 - wrapper - Method save_images_async executed in 0.07 seconds
+2025-12-06 16:27:33,528 - PID:10584 - INFO - cat_image_processor.py:285 - run_async - Results saved successfully
+2025-12-06 16:27:33,528 - PID:10584 - INFO - cat_image_processor.py:286 - run_async - === Processing completed ===
+2025-12-06 16:27:33,532 - PID:10584 - DEBUG - cat_image_processor.py:74 - wrapper - Method run_async executed in 58.29 seconds
+2025-12-06 16:28:09,183 - PID:2536 - DEBUG - proactor_events.py:631 - __init__ - Using proactor: IocpProactor
+2025-12-06 16:28:09,185 - PID:2536 - INFO - cat_image_processor.py:277 - run_async - === Starting cat image processing pipeline ===
+2025-12-06 16:28:09,186 - PID:2536 - INFO - cat_image_processor.py:106 - download_data - Starting image download (1)
+2025-12-06 16:28:09,187 - PID:2536 - DEBUG - cat_image_processor.py:113 - download_data - Requested 1 cats
+2025-12-06 16:28:10,284 - PID:2536 - DEBUG - cat_image_processor.py:117 - download_data - Received response with 1 cats
+2025-12-06 16:28:10,284 - PID:2536 - DEBUG - cat_image_processor.py:120 - download_data - Requesting cat images
+2025-12-06 16:28:10,284 - PID:2536 - DEBUG - cat_image_processor.py:80 - _download_image - Method _download_image called for image with index: 0
+2025-12-06 16:28:11,586 - PID:2536 - DEBUG - cat_image_processor.py:88 - _download_image - Method _download_image for image#0 executed in 1.30 seconds
+2025-12-06 16:28:11,589 - PID:2536 - DEBUG - cat_image_processor.py:74 - wrapper - Method download_data executed in 2.40 seconds
+2025-12-06 16:28:11,590 - PID:2536 - INFO - cat_image_processor.py:279 - run_async - Downloaded 1 images
+2025-12-06 16:28:11,590 - PID:2536 - DEBUG - cat_image_processor.py:173 - process_images - Called processing 1 images with cats
+2025-12-06 16:28:38,339 - PID:2536 - DEBUG - cat_image_processor.py:74 - wrapper - Method process_images executed in 26.75 seconds
+2025-12-06 16:28:38,339 - PID:2536 - INFO - cat_image_processor.py:282 - run_async - Processed 1 images
+2025-12-06 16:28:38,340 - PID:2536 - DEBUG - cat_image_processor.py:254 - save_images_async - Called saving 1 processed images with cats
+2025-12-06 16:28:38,342 - PID:2536 - DEBUG - cat_image_processor.py:208 - save_one_dir_async - Called saving dir for Bengal cat with id = 0
+2025-12-06 16:28:38,343 - PID:2536 - DEBUG - cat_image_processor.py:230 - save_image - Called saving Bengal processed image - saved_images\2025-12-06_16-28-38\0_Bengal\0_Bengal_original.jpg
+2025-12-06 16:28:38,356 - PID:2536 - DEBUG - cat_image_processor.py:230 - save_image - Called saving Bengal processed image - saved_images\2025-12-06_16-28-38\0_Bengal\0_Bengal_custom.jpg
+2025-12-06 16:28:38,369 - PID:2536 - DEBUG - cat_image_processor.py:230 - save_image - Called saving Bengal processed image - saved_images\2025-12-06_16-28-38\0_Bengal\0_Bengal_cv2.jpg
+2025-12-06 16:28:38,404 - PID:2536 - DEBUG - cat_image_processor.py:74 - wrapper - Method save_image executed in 0.06 seconds
+2025-12-06 16:28:38,406 - PID:2536 - DEBUG - cat_image_processor.py:74 - wrapper - Method save_image executed in 0.05 seconds
+2025-12-06 16:28:38,406 - PID:2536 - DEBUG - cat_image_processor.py:74 - wrapper - Method save_image executed in 0.04 seconds
+2025-12-06 16:28:38,407 - PID:2536 - DEBUG - cat_image_processor.py:74 - wrapper - Method save_one_dir_async executed in 0.06 seconds
+2025-12-06 16:28:38,407 - PID:2536 - DEBUG - cat_image_processor.py:74 - wrapper - Method save_images_async executed in 0.07 seconds
+2025-12-06 16:28:38,407 - PID:2536 - INFO - cat_image_processor.py:285 - run_async - Results saved successfully
+2025-12-06 16:28:38,407 - PID:2536 - INFO - cat_image_processor.py:286 - run_async - === Processing completed ===
+2025-12-06 16:28:38,409 - PID:2536 - DEBUG - cat_image_processor.py:74 - wrapper - Method run_async executed in 29.22 seconds
+2025-12-19 16:32:53,062 - PID:6200 - DEBUG - proactor_events.py:631 - __init__ - Using proactor: IocpProactor
+2025-12-19 16:32:53,082 - PID:6200 - INFO - cat_image_processor.py:277 - run_async - === Starting cat image processing pipeline ===
+2025-12-19 16:32:53,083 - PID:6200 - INFO - cat_image_processor.py:106 - download_data - Starting image download (1)
+2025-12-19 16:32:53,083 - PID:6200 - DEBUG - cat_image_processor.py:113 - download_data - Requested 1 cats
+2025-12-19 16:32:53,862 - PID:6200 - DEBUG - cat_image_processor.py:117 - download_data - Received response with 1 cats
+2025-12-19 16:32:53,862 - PID:6200 - DEBUG - cat_image_processor.py:120 - download_data - Requesting cat images
+2025-12-19 16:32:53,862 - PID:6200 - DEBUG - cat_image_processor.py:80 - _download_image - Method _download_image called for image with index: 0
+2025-12-19 16:33:24,124 - PID:6200 - ERROR - cat_image_processor.py:289 - run_async - Error in run_async: 
+2025-12-19 16:35:54,389 - PID:2552 - DEBUG - proactor_events.py:631 - __init__ - Using proactor: IocpProactor
+2025-12-19 16:35:54,406 - PID:2552 - INFO - cat_image_processor.py:277 - run_async - === Starting cat image processing pipeline ===
+2025-12-19 16:35:54,406 - PID:2552 - INFO - cat_image_processor.py:106 - download_data - Starting image download (1)
+2025-12-19 16:35:54,407 - PID:2552 - DEBUG - cat_image_processor.py:113 - download_data - Requested 1 cats
+2025-12-19 16:35:55,549 - PID:2552 - DEBUG - cat_image_processor.py:117 - download_data - Received response with 1 cats
+2025-12-19 16:35:55,549 - PID:2552 - DEBUG - cat_image_processor.py:120 - download_data - Requesting cat images
+2025-12-19 16:35:55,549 - PID:2552 - DEBUG - cat_image_processor.py:80 - _download_image - Method _download_image called for image with index: 0
+2025-12-19 16:35:56,815 - PID:2552 - DEBUG - cat_image_processor.py:88 - _download_image - Method _download_image for image#0 executed in 1.27 seconds
+2025-12-19 16:35:56,817 - PID:2552 - DEBUG - cat_image_processor.py:74 - wrapper - Method download_data executed in 2.41 seconds
+2025-12-19 16:35:56,817 - PID:2552 - INFO - cat_image_processor.py:279 - run_async - Downloaded 1 images
+2025-12-19 16:35:56,817 - PID:2552 - DEBUG - cat_image_processor.py:173 - process_images - Called processing 1 images with cats
+2025-12-19 16:36:17,826 - PID:2552 - DEBUG - cat_image_processor.py:74 - wrapper - Method process_images executed in 21.01 seconds
+2025-12-19 16:36:17,827 - PID:2552 - INFO - cat_image_processor.py:282 - run_async - Processed 1 images
+2025-12-19 16:36:17,827 - PID:2552 - DEBUG - cat_image_processor.py:254 - save_images_async - Called saving 1 processed images with cats
+2025-12-19 16:36:17,828 - PID:2552 - DEBUG - cat_image_processor.py:208 - save_one_dir_async - Called saving dir for Chartreux cat with id = 0
+2025-12-19 16:36:17,829 - PID:2552 - DEBUG - cat_image_processor.py:230 - save_image - Called saving Chartreux processed image - saved_images\2025-12-19_16-36-17\0_Chartreux\0_Chartreux_original.jpg
+2025-12-19 16:36:17,836 - PID:2552 - DEBUG - cat_image_processor.py:230 - save_image - Called saving Chartreux processed image - saved_images\2025-12-19_16-36-17\0_Chartreux\0_Chartreux_custom.jpg
+2025-12-19 16:36:17,839 - PID:2552 - DEBUG - cat_image_processor.py:230 - save_image - Called saving Chartreux processed image - saved_images\2025-12-19_16-36-17\0_Chartreux\0_Chartreux_cv2.jpg
+2025-12-19 16:36:17,862 - PID:2552 - DEBUG - cat_image_processor.py:74 - wrapper - Method save_image executed in 0.03 seconds
+2025-12-19 16:36:17,868 - PID:2552 - DEBUG - cat_image_processor.py:74 - wrapper - Method save_image executed in 0.03 seconds
+2025-12-19 16:36:17,869 - PID:2552 - DEBUG - cat_image_processor.py:74 - wrapper - Method save_image executed in 0.03 seconds
+2025-12-19 16:36:17,869 - PID:2552 - DEBUG - cat_image_processor.py:74 - wrapper - Method save_one_dir_async executed in 0.04 seconds
+2025-12-19 16:36:17,869 - PID:2552 - DEBUG - cat_image_processor.py:74 - wrapper - Method save_images_async executed in 0.04 seconds
+2025-12-19 16:36:17,869 - PID:2552 - INFO - cat_image_processor.py:285 - run_async - Results saved successfully
+2025-12-19 16:36:17,870 - PID:2552 - INFO - cat_image_processor.py:286 - run_async - === Processing completed ===
+2025-12-19 16:36:17,872 - PID:2552 - DEBUG - cat_image_processor.py:74 - wrapper - Method run_async executed in 23.47 seconds
